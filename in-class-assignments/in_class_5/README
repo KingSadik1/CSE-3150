@@ -1,1 +1,2 @@
-
+run main : g++ student_functions.cpp student_main.cpp 
+run test cases : g++ student_functions.cpp unit_test.cpp 
