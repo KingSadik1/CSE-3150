@@ -1,0 +1,3 @@
+compile main with g++ functions.cpp main.cpp
+
+compile unit test g++ functions.cpp unit_test.cpp
