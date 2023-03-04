@@ -1,0 +1,2 @@
+compile main with g++ vector_functions.cpp vector_main.cpp
+compile unit test with g++ vector_functions.cpp unit_test.cpp
