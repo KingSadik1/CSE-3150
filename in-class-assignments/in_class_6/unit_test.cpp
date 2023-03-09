@@ -48,4 +48,20 @@ TEST_CASE("Test week 6 assignment") {
       infile2.close();
       remove("non_empty.txt");
   }
+  SUBCASE("Test basic constructor") {
+      int_vector vect;
+      CHECK(vect.id == -1);
+      CHECK(vect.from == 0);
+      CHECK(vect.to == 0);
+  };
+  SUBCASE("Test copy constructor") {
+      int_vector v1;
+      v1.id = 1;
+      v1.from = 2;
+      v1.to = 3;
+      int_vector v2(v1);
+      CHECK(v2.id == 1);
+      CHECK(v2.from == 2);
+      CHECK(v2.to == 3);
+  };
 }
