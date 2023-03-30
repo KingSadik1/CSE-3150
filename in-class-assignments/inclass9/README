@@ -1,2 +1,2 @@
 
-comile with g++ unit_test.cpp
+comile with g++ unit_test.cpp unique_ptr.cpp
