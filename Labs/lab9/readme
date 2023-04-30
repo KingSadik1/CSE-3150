@@ -1,1 +1,2 @@
 
+g++ functions.cpp unittest.cpp
