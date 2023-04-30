@@ -1,2 +1,2 @@
 
-g++ functions.cpp unittest.cpp
+g++ functions.cpp unit_test.cpp
